@@ -270,13 +270,177 @@ li.first{
     color: #444444;
     font-size:18px;
     padding:10px;
-    border-top:1px dashed #96b4d2;
+    border-top:1px dashed #3cd21f;
     text-align: left;
     font-weight: 400;
 }
 .big-size-font{
-    font-size:22px;
+    font-size:20px;
     color:#000;
+}
+
+.tarif-table th {
+    padding: 0px 12px;
+}
+
+.tarif-table .box {
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    width: auto;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+.tarif-table .green {
+    background-color: #8fc400;
+}
+
+.tarif-table .blue {
+    background-color: #4386CE;
+}
+
+.tarif-table .red {
+    background-color: #c72200;
+}
+
+.tarif-table .cash {
+    font-size: 22px;
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 46px;
+    height: 46px;
+}
+
+.tarif-table .white {
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    line-height: 46px;
+    height: 46px;
+    color: #000;
+}
+
+.tarif-table .grey {
+    text-align: center;
+    background-color: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 46px;
+    height: 46px;
+    color: #000;
+}
+
+.tarif-table td {
+    color: #444444;
+    font-size: 18px;
+    padding: 0px 12px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.tarif-table .small-font {
+    font-size: 18px;
+}
+
+.tarif-table img {
+    vertical-align: middle;
+    width: 17%
+}
+
+.tarif-table .caption {
+    padding: 10px;
+}
+
+.tarif-table .calculator-button {
+    background-color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: auto;
+    height: 48px;
+}
+
+.tarif-table .calculator-button img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.tarif-table .calculator-button .caption {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    float: left;
+    width: 375px;
+    text-align: center;
+    margin: 0px;
+    padding: 4px 0px 0px 0px;
+}
+
+.support-wrapper {
+    padding-bottom: 40px;
+    color: #000;
+    font-size: 18px;
+}
+
+.support-wrapper h2 {
+    font-size: 26px;
+    color: #434343;
+    margin: 0px 0px 28px 0px;
+    font-weight: normal;
+}
+
+.support-wrapper h3 {
+    font-size: 26px;
+    color: #4386ce;
+    margin-bottom: 22px;
+    font-weight: normal;
+}
+
+.tarif-wrapper {
+}
+
+.tarif-wrapper h1 {
+    font-size: 26px;
+    color: #434343;
+    text-shadow: 1px 1px 2px #fff;
+    margin-bottom: 48px;
+    font-weight: normal;
+}
+
+.tarif-wrapper h2 {
+    font-size: 26px;
+    color: #4386ce;
+    margin-bottom: 22px;
+    font-weight: normal;
+}
+
+.attention {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+}
+
+.clear {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+}
+
+.rowElem {
+    margin: 0 0 12px 0;
+    padding: 0;
 }
 
 /*.shadow-cell-l{*/
