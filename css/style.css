@@ -174,8 +174,8 @@ li.first{
     margin-top: 17px;
     margin-bottom: 17px;
     padding: 20px 0;
-    border: 2px solid #ffffff;
-    border-radius: 20px;
+    /*border: 2px solid #ffffff;*/
+    /*border-radius: 20px;*/
     background-color: chartreuse;
     box-shadow: 1px 1px 7px 0px gray;
 }
@@ -245,6 +245,44 @@ li.first{
     width: 2%;
     vertical-align: middle;
     padding: 0 10px;
+}
+.block_deadline{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17pt;
+    font-weight: 400;
+}
+.image_content_other{
+    text-align: center;
+    /*background-color: #83E02F;*/
+    /*padding: 58px;*/
+    margin: 0 auto;
+    color: #fff;
+    font-size: 21pt;
+    font-weight: 600;
+    line-height: 27px;
+    text-shadow: 1px 1px 1px rgba(21, 37, 17, 0.81);
+}
+.price_block_other{
+    text-align: center;
+    /*padding: 22px 0;*/
+    font-size: 17pt;
+    /*margin-top: -20px;*/
+}
+.right_column{
+    /*margin-left: 50px;*/
+}
+.service_item_reclame{
+    border: 1px solid lightgray;
+    padding: 20px;
+    /*margin: 0 auto;*/
+    text-align: center;
+    margin-left: 0;
+    margin: 10px 6px;
+}
+.service_item_reclame h3{
+    font-size: 16pt;
+    font-weight: 400;
 }
 /*table {*/
     /*border-collapse: collapse;*/
@@ -344,6 +382,7 @@ li.first{
     padding: 0px 12px;
     text-align: left;
     font-weight: 400;
+    vertical-align: middle;
 }
 
 .tarif-table .small-font {
@@ -794,7 +833,7 @@ a:hover {
 .rel img{
     max-width: 30%;
     float: left;
-    background-color: rgba(13, 15, 13, 0.52);
+    background-color: rgba(13, 15, 13, 0.79);
     padding: 11px;
 }
 /*header*/
@@ -979,8 +1018,25 @@ a.service_link:hover{
     background-color: #000;
     color: #ffffff;
 }
-
-
+.button_services{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 43px;
+    margin-bottom: 45px;
+}
+.button_services a{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #7FFF00;
+    padding: 14px 28px;
+    font-weight: 400;
+    font-size: 18pt;
+}
+.button_services a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: all ease 0.3s; ;
+}
 .brif_link a{
     color:#ffffff;
     text-transform: uppercase;
