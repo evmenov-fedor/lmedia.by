@@ -795,6 +795,7 @@ a:hover {
 }
 .fwn {
   font-weight: normal;
+    text-align: justify;
 }
 .fright {
   float: right !important;
@@ -820,7 +821,7 @@ a:hover {
 .wrapper,
 .extra_wrapper {
   overflow: hidden;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 .clear {
   float: none !important;
@@ -1386,11 +1387,18 @@ a.color1:hover {
   outline: none;
   color: #2AC327;
 }
+.tarif_table_hide{
+    display: none;
+    visibility: hidden;
+}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
   .extra_wrapper {
     overflow: visible;
-      text-align: justify;
+      /*text-align: justify;*/
+  }
+  .extra_wrapper p{
+      text-align: left;
   }
   .banner {
     -webkit-box-sizing: border-box;
@@ -1454,6 +1462,14 @@ a.color1:hover {
   }
     #link_details{
         width: 55%;
+    }
+    .tarif-table{
+        display: none;
+        visibility: hidden;
+    }
+    .tarif_table_hide{
+        display: block;
+        visibility: visible;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -1561,6 +1577,7 @@ a.color1:hover {
 
         margin-top: 18px;
     }
+
 }
 @media only screen and (max-width: 600px){
 .image_services{
