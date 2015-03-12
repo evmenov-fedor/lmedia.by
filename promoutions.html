@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Lime Media</title>
+    <title>Продвижение</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
     <link rel="icon" href="images/favicon.ico">
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" />
     <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/script.js"></script>
     <script src="js/superfish.js"></script>
     <script src="js/jquery.equalheights.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/tmStickUp.js"></script>
     <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/wow.js"></script>
     <script>
         $(window).load(function(){
             $().UItoTop({ easingType: 'easeOutQuart' });
@@ -69,7 +73,7 @@
                         </nav>
                         <div class="contact_header">
                             <ul>
-                                <li class="first">+375-29-129-95-14</li>
+                                <li class="first">+375 (29) 129-95-14</li>
                                 <li>info@lmedia.by</li>
 
                             </ul>
@@ -192,7 +196,7 @@
                         <H3>SEO</H3>
                         <p>Поисковая оптимизация (Search Engine Optimisation, SEO)  включает в себя целый комплекс услуг, направленных на улучшение позиции сайта в рейтингах поисковых машин Яндекс и Google. Сюда входит аудит сайта, его внутренняя оптимизация, а также целенаправленное активное продвижение по определенным тематическим словами и словосочетаниям. Все это вы можете заказать в компании LimeMedia, мы с радостью проведем для вас предварительный анализ сайта и совершенно бесплатно предоставим прогнозы по поисковой оптимизации и дальнейшему продвижению.</p>
 
-                        <div class=" button_services"><a href="#">заказать услугу</a></div>
+                        <div class=" button_services"><a href="#brifpromoution" class="fancybox">заказать услугу</a></div>
                     </div>
                     <!--</div>-->
                     <!--</div>-->
@@ -227,6 +231,34 @@
         </div>
     </div>
 </footer>
+<div class="hidden">
+    <!--фора для продвижения-->
+    <form id="brifpromoution" class="pop_form">
+        <h3>Контактная информация</h3>
+        <input type="text" name="name"  placeholder="Имя контактного лица" required=""/>
+        <input type="email" name="email"  placeholder="Email" required="" />
+        <input type="text" name="phone" placeholder="Телефон" />
+        <input type="text" name="company_name" placeholder="Название компании" />
+        <h3>Вид продвижения</h3>
+        <label><input type="checkbox" name="context" value="context" checked/>Контекстная реклама </label><br>
+        <label><input type="checkbox" name="smm" value="smm"/>Продвижение в соц.сетях (SMM)</label><br>
+        <label><input type="checkbox" name="seo" value="seo" />SEO</label><br>
+        <!--<input type="checkbox" name="smm" value="smm" /> Продвижение в соц.сетях (SMM)<br/>-->
+        <!--<input type="checkbox" name="seo" value="seo" /> SEO<br/>-->
+        <input type="text" name="thing_promoution" placeholder="Товар, услуга для продвижения" />
+        <h3>Дополнительная информация</h3>
+        <textarea rows="4" cols="50" name="desire" placeholder="Пожелания" ></textarea>
+        <input type="text" name="select_price" placeholder="Ориентировочный бюджет" />
+        <!--<select type="text" name="select_price" >-->
+        <!--<option value="0" selected>Ориентировочный бюджет</option>-->
+        <!--<option value="1" >По дешевле</option>-->
+        <!--<option value="2" >Классический вариант</option>-->
+        <!--<option value="3" >Сайт премиум уровня</option>-->
+        <!--</select>-->
+        <input type="text" name="know" placeholder="Откуда узнали о нас" />
+        <button type="submit" class="btn">Отправить</button><br />
+    </form>
+</div>
 <a href="#" id="toTop" class="fa fa-chevron-up"></a>
 </body>
 </html>

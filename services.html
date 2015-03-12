@@ -21,7 +21,6 @@
 <script src="js/script.js"></script>
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
-
 <!--<script src="js/waypoints-1.6.2.min.js"></script>-->
 <script src="js/common.js"></script>
 <script src="js/wow.js"></script>
@@ -80,7 +79,7 @@
             </nav>
               <div class="contact_header">
                   <ul>
-                      <li class="first">+375-29-129-95-14</li>
+                      <li class="first">+375 (29) 129-95-14</li>
                       <li>info@lmedia.by</li>
 
                   </ul>
@@ -180,7 +179,7 @@
 
                 <!--<a href="#">скачать прайс-лист</a>-->
                </div>
-            <div class="brif_link"> <a href="#" >заполнить бриф</a></div>
+            <div class="brif_link"> <a href="#brifsupport" class="fancybox">заполнить бриф</a></div>
             <!--<div class="grid_2 image_services ">-->
             <!--<img src="images/support.png">-->
             <!--</div>-->
@@ -209,30 +208,30 @@
 
                 <!--<a href="#">скачать прайс-лист</a>-->
             </div>
-            <div class="brif_link"> <a href="#" >заполнить бриф</a></div>
+            <div class="brif_link"> <a href="#brifreclame" class="fancybox" >заполнить бриф</a></div>
         </div>
         <div class="grid_2 service_item wow bounceInLeft animated">
             <!--<h3 class="title_article">Дизайн</h3>-->
             <!--<div class="grid_2 image_services">-->
                 <!--<img src="images/design.png">-->
             <!--</div>-->
-            <a href="service_design.html" class="service_link "><div class="maxheight1">
+            <a href="service_design.html" class="service_link"><div class="maxheight1">
                 <div class="fa fa-paint-brush"></div>Дизайн</div>
             </a>
             <div class="grid_2 text_services">
                 <p>
                     Вы хотите создать или изменить логотип, разработать
-                    свой соб<wbr>ственный фирменный стиль?
-                    Опытный дизай<wbr>нер  воплотит в жизнь
+                    свой соб<wbr/>ственный фирменный стиль?
+                    Опытный дизай<wbr/>нер  воплотит в жизнь
                     все ваши самые смелые задумки и идеи, даст пару
                     дельных советов или придаст новый современный стиль
-                    уже устаревшим графи<wbr>ческим элементам.
-                    Ста<wbr>новитесь ярче вместе с LimeMedia!
+                    уже устаревшим графи<wbr/>ческим элементам.
+                    Ста<wbr/>новитесь ярче вместе с LimeMedia!
                 </p>
 
                 <!--<a href="#">скачать прайс-лист</a>-->
             </div>
-            <div class="brif_link"> <a href="#" >заполнить бриф</a></div>
+            <div class="brif_link"> <a href="#brifdesign" class="fancybox">заполнить бриф</a></div>
             <!--<div class="grid_2 image_services">-->
                 <!--<img src="images/design.png">-->
             <!--</div>-->
@@ -287,14 +286,14 @@
         <input type="text" name="thing_promoution" placeholder="Товар, услуга для продвижения" />
         <h3>Дополнительная информация</h3>
         <textarea rows="4" cols="50" name="desire" placeholder="Пожелания" ></textarea>
-        <input type="text" name="select_price" placeholder="Оринтировоный бюджет" />
+        <input type="text" name="select_price" placeholder="Ориентировочный бюджет" />
         <!--<select type="text" name="select_price" >-->
             <!--<option value="0" selected>Ориентировочный бюджет</option>-->
             <!--<option value="1" >По дешевле</option>-->
             <!--<option value="2" >Классический вариант</option>-->
             <!--<option value="3" >Сайт премиум уровня</option>-->
         <!--</select>-->
-        <input type="text" name="know" placeholder="Откудо узнали от нас" />
+        <input type="text" name="know" placeholder="Откуда узнали о нас" />
         <button type="submit" class="btn">Отправить</button><br />
         </form>
     <!-------------------Форма для разработки--------------------->
@@ -310,15 +309,78 @@
     <textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>
     <textarea rows="5" cols="50" name="about_site" placeholder="Описание сайта" required=""></textarea>
     <h3>Дополнительная информация</h3>
-    <input type="text" name="deadline_date" placeholder="На когда нужно сайт" />
-    <input type="text" name="select_price" placeholder="Оринтировоный бюджет" />
-    <input type="text" name="know" placeholder="Откудо узнали от нас" />
+    <!--<input type="text" name="deadline_date" placeholder="Когда нужно сайт?" />-->
+    <input type="text" name="select_price" placeholder="Ориентировочный бюджет" />
+    <input type="text" name="know" placeholder="Откуда узнали о нас" />
     <button type="submit" class="btn">Отправить</button><br />
-        <!--форма для поддержки-->
-        <!--форма для рекламы-->
-        <!--форма для дизайна-->
+        </form>
+        <!------------форма для поддержки------------------>
+        <!--------------------------------------->
+        <!--------------------------------------->
+        <form id="brifsupport" class="pop_form">
+            <h3>Контактная информация</h3>
+            <input type="text" name="name"  placeholder="Имя контактного лица" required=""/>
+            <input type="email" name="email"  placeholder="Email" required="" />
+            <input type="text" name="phone" placeholder="Телефон" />
+            <input type="text" name="company_name" placeholder="Название компании" />
+            <h3>Описание</h3>
+            <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
+            <textarea rows="5" cols="50" name="about_site" placeholder="Описание услуги" required=""></textarea>
+            <h3>Дополнительная информация</h3>
+            <!--<input type="text" name="select_price" placeholder="Оринтировоный бюджет" />-->
+            <input type="text" name="know" placeholder="Откуда узнали о нас" />
+            <button type="submit" class="btn">Отправить</button><br />
+        </form>
+        <!------------------------форма для рекламы------------------------->
+        <!------------------------------------------------------------------>
+        <!------------------------------------------------------------------>
+        <form id="brifreclame" class="pop_form">
+            <h3>Контактная информация</h3>
+            <input type="text" name="name"  placeholder="Имя контактного лица" required=""/>
+            <input type="email" name="email"  placeholder="Email" required="" />
+            <input type="text" name="phone" placeholder="Телефон" />
+            <input type="text" name="company_name" placeholder="Название компании" />
+            <h3>Реклама</h3>
+            <label><input type="checkbox" name="" value="context" checked/>Реклама на TV</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Реклама на радио</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Реклама в СМИ</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Интернет реклама</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Реклама в общественном трансопорте</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Реклама в метро</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Реклама в лифтах</label><br>
+            <label><input type="checkbox" name="style" value="smm"/>Наружная реклама</label><br>
 
-</form>
+            <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
+            <textarea rows="5" cols="50" name="about_site" placeholder="Описание услуги" required=""></textarea>
+            <h3>Дополнительная информация</h3>
+            <!--<input type="text" name="select_price" placeholder="Оринтировоный бюджет" />-->
+            <input type="text" name="know" placeholder="Откуда узнали о нас" />
+            <button type="submit" class="btn">Отправить</button><br />
+        </form>
+    <!------------------------форма для дизайна------------------------->
+    <!------------------------------------------------------------------>
+    <!------------------------------------------------------------------>
+    <form id="brifdesign" class="pop_form">
+        <h3>Контактная информация</h3>
+        <input type="text" name="name"  placeholder="Имя контактного лица" required=""/>
+        <input type="email" name="email"  placeholder="Email" required="" />
+        <input type="text" name="phone" placeholder="Телефон" />
+        <input type="text" name="company_name" placeholder="Название компании" />
+        <h3>Дизайн</h3>
+        <label><input type="checkbox" name="logo" value="context" checked/>Логотип</label><br>
+        <label><input type="checkbox" name="style" value="smm"/>Фирменный стиль</label><br>
+        <label><input type="checkbox" name="brandbook" value="seo" />Брендбук(фирменный стиль + реклама, униформа и т.д)</label><br>
+        <input type="text" name="Summ" placeholder="Бюджет" />
+        <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
+        <textarea rows="5" cols="50" name="wishes_design" placeholder="Пожелания(цвет, форма и т.д)" required=""></textarea>
+        <textarea rows="5" cols="50" name="info_cunsumer" placeholder="Информация о потребителе(возраст, статус)" required=""></textarea>
+        <textarea rows="5" cols="50" name="info_place" placeholder="место применения продукции" required=""></textarea>
+        <h3>Дополнительная информация</h3>
+        <!--<input type="text" name="select_price" placeholder="Оринтировоный бюджет" />-->
+        <input type="text" name="know" placeholder="Откуда узнали о нас" />
+        <button type="submit" class="btn">Отправить</button><br />
+    </form>
+
 
 </div>
 <a href="#" id="toTop" class="fa fa-chevron-up"></a>
