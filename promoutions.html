@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" />
-    <script src="js/jquery.js"></script>
+    <!--<script src="js/jquery.js"></script>-->
+    <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/superfish.js"></script>
     <script src="js/jquery.equalheights.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
@@ -19,7 +20,9 @@
     <script src="js/tmStickUp.js"></script>
     <script src="js/jquery.ui.totop.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/wow.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/brif_promo.js"></script>
+    <!--<script src="js/wow.js"></script>-->
     <script>
         $(window).load(function(){
             $().UItoTop({ easingType: 'easeOutQuart' });
@@ -218,15 +221,15 @@
                 </div>
             </div>
             <div class="grid_4">
-                <div class="social_container wow bounceInRight animated">
-                    <ul>
-                        <li><a href="#"><img src="images/vk.png"/></a></li>
-                        <li><a href="#"><img src="images/facebook.png"/></a></li>
-                        <li><a href="#"><img src="images/twitter.png"/></a></li>
-                        <li><a href="#"><img src="images/instagram.png"/></a></li>
-                        <li><a href="#"><img src="images/linkedin.png"/></a></li>
-                    </ul>
-                </div>
+                <!--<div class="social_container wow bounceInRight animated">-->
+                    <!--<ul>-->
+                        <!--<li><a href="#"><img src="images/vk.png"/></a></li>-->
+                        <!--<li><a href="#"><img src="images/facebook.png"/></a></li>-->
+                        <!--<li><a href="#"><img src="images/twitter.png"/></a></li>-->
+                        <!--<li><a href="#"><img src="images/instagram.png"/></a></li>-->
+                        <!--<li><a href="#"><img src="images/linkedin.png"/></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
             </div>
         </div>
     </div>
@@ -240,9 +243,9 @@
         <input type="text" name="phone" placeholder="Телефон" />
         <input type="text" name="company_name" placeholder="Название компании" />
         <h3>Вид продвижения</h3>
-        <label><input type="checkbox" name="context" value="context" checked/>Контекстная реклама </label><br>
-        <label><input type="checkbox" name="smm" value="smm"/>Продвижение в соц.сетях (SMM)</label><br>
-        <label><input type="checkbox" name="seo" value="seo" />SEO</label><br>
+        <label><input type="checkbox" name="check[]" value="context" checked/>Контекстная реклама </label><br>
+        <label><input type="checkbox" name="check[]" value="smm"/>Продвижение в соц.сетях (SMM)</label><br>
+        <label><input type="checkbox" name="check[]" value="seo" />SEO</label><br>
         <!--<input type="checkbox" name="smm" value="smm" /> Продвижение в соц.сетях (SMM)<br/>-->
         <!--<input type="checkbox" name="seo" value="seo" /> SEO<br/>-->
         <input type="text" name="thing_promoution" placeholder="Товар, услуга для продвижения" />

@@ -256,15 +256,15 @@
                 </div>
             </div>
             <div class="grid_4">
-                <div class="social_container wow bounceInRight animated">
-                    <ul>
-                        <li><a href="#"><img src="images/vk.png"></a></li>
-                        <li><a href="#"><img src="images/facebook.png"></a></li>
-                        <li><a href="#"><img src="images/twitter.png"></a></li>
-                        <li><a href="#"><img src="images/instagram.png"></a></li>
-                        <li><a href="#"><img src="images/linkedin.png"></a></li>
-                    </ul>
-                </div>
+                <!--<div class="social_container wow bounceInRight animated">-->
+                    <!--<ul>-->
+                        <!--<li><a href="#"><img src="images/vk.png"></a></li>-->
+                        <!--<li><a href="#"><img src="images/facebook.png"></a></li>-->
+                        <!--<li><a href="#"><img src="images/twitter.png"></a></li>-->
+                        <!--<li><a href="#"><img src="images/instagram.png"></a></li>-->
+                        <!--<li><a href="#"><img src="images/linkedin.png"></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
             </div>
         </div>
     </div>
@@ -317,20 +317,22 @@
         <!------------форма для поддержки------------------>
         <!--------------------------------------->
         <!--------------------------------------->
-        <form id="brifsupport" class="pop_form">
-            <h3>Контактная информация</h3>
-            <input type="text" name="name"  placeholder="Имя контактного лица" required=""/>
-            <input type="email" name="email"  placeholder="Email" required="" />
-            <input type="text" name="phone" placeholder="Телефон" />
-            <input type="text" name="company_name" placeholder="Название компании" />
-            <h3>Описание</h3>
-            <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
-            <textarea rows="5" cols="50" name="about_site" placeholder="Описание услуги" required=""></textarea>
-            <h3>Дополнительная информация</h3>
-            <!--<input type="text" name="select_price" placeholder="Оринтировоный бюджет" />-->
-            <input type="text" name="know" placeholder="Откуда узнали о нас" />
-            <button type="submit" class="btn">Отправить</button><br />
-        </form>
+    <form id="brifsupport" class="pop_form">
+        <h3>Контактная информация</h3>
+        <input type="text" name="name"  placeholder="Имя контактного лица" required=""/>
+        <input type="email" name="email"  placeholder="Email" required="" />
+        <input type="text" name="phone" placeholder="Телефон" />
+        <input type="text" name="company_name" placeholder="Название компании" />
+        <h3>Описание</h3>
+        <input type="text" name="site_name" placeholder="Название вашего сайта" />
+
+        <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
+        <textarea rows="5" cols="50" name="about_support" placeholder="Описание услуги" required=""></textarea>
+        <h3>Дополнительная информация</h3>
+        <!--<input type="text" name="select_price" placeholder="Оринтировоный бюджет" />-->
+        <input type="text" name="know" placeholder="Откуда узнали о нас" />
+        <button type="submit" class="btn">Отправить</button><br />
+    </form>
         <!------------------------форма для рекламы------------------------->
         <!------------------------------------------------------------------>
         <!------------------------------------------------------------------>
@@ -369,7 +371,7 @@
         <h3>Дизайн</h3>
         <label><input type="checkbox" name="logo" value="context" checked/>Логотип</label><br>
         <label><input type="checkbox" name="style" value="smm"/>Фирменный стиль</label><br>
-        <label><input type="checkbox" name="brandbook" value="seo" />Брендбук(фирменный стиль + реклама, униформа и т.д)</label><br>
+        <label><input type="checkbox" name="brandbook" value="seo" />Брендбук(фирменный стиль + реклама и т.д.)</label><br>
         <input type="text" name="Summ" placeholder="Бюджет" />
         <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
         <textarea rows="5" cols="50" name="wishes_design" placeholder="Пожелания(цвет, форма и т.д)" required=""></textarea>

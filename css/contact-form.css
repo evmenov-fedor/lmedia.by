@@ -56,6 +56,7 @@ form label.error {
     border-radius: 3px;
     padding: 10px 10px;
     background: #FFF;
+    float:left;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
