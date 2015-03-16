@@ -698,7 +698,7 @@ h5,
 h6 {
     font-weight: 300;
     color: #000000;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto light', sans-serif;
 }
 
 h2 {
@@ -1340,7 +1340,7 @@ a.service_link:hover {
 }
 
 .block-3 .count {
-    background-color: #00BA2D;
+    background-color: #7FFF00;
     color: #ffffff;
     width: 68px;
     height: 68px;
@@ -1867,11 +1867,11 @@ a.color1:hover {
     }
 
     H2 {
-        font-size: 44px;
+        font-size: 38px;
     }
 
     h2.head__1 {
-        font-size: 61px;
+        font-size: 51px;
         padding-top: 37px;
     }
 

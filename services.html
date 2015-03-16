@@ -80,7 +80,7 @@
                         <div class="contact_header">
                             <ul>
                                 <li class="first">+375 (29) 129-95-14</li>
-                                <li>info@lmedia.by</li>
+                                <li><a href="#mail_to" class="fancybox">info@lmedia.by</a></li>
 
                             </ul>
                         </div>
@@ -456,6 +456,22 @@
         <h3>Дополнительная информация</h3>
         <!--<input type="text" name="select_price" placeholder="Оринтировоный бюджет" />-->
         <input type="text" name="know" placeholder="Откуда узнали о нас"/>
+        <button type="submit" class="btn">Отправить</button>
+        <br/>
+    </form>
+    <!-------------------------------------->
+    <!-------------------------------------->
+    <!-------------------------------------->
+    <form id="mail_to" class="pop_form">
+        <h3>Контактная информация</h3>
+        <input type="text" name="name" placeholder="Имя контактного лица" required=""/>
+        <input type="email" name="email" placeholder="Email" required=""/>
+        <input type="text" name="phone" placeholder="Телефон"/>
+
+
+        <!--<textarea rows="5" cols="50" name="struct_site" placeholder="Структура сайта: Главная, О Нас, Услуги(услуга1, услуга2, услуга3), Контакты" required=""></textarea>-->
+        <textarea rows="5" cols="50" name="massage" placeholder="Сообщение" required=""></textarea>
+
         <button type="submit" class="btn">Отправить</button>
         <br/>
     </form>
